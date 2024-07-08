@@ -1,2 +1,2 @@
 # netflix_pipeline
-Netflix weekly data pipeline
+Netflix weekly top movies data pipeline
