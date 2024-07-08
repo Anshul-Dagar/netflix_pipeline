@@ -33,7 +33,7 @@ def main():
     )
 
     data = extract_data()
-    info = pipeline.run(data, table_name="netflix_top10", write_disposition="append")
+    info = pipeline.run(data, table_name="netflix_top10", write_disposition="replace")
     print(info)
 
 if __name__ == "__main__":
