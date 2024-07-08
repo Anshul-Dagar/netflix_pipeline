@@ -2,7 +2,6 @@ import dlt
 import pandas as pd
 import requests
 from io import BytesIO
-from sqlalchemy import create_engine
 
 # Define constants
 EXCEL_URL = 'https://www.netflix.com/tudum/top10/data/all-weeks-global.xlsx'
